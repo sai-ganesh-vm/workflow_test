@@ -1,0 +1,8 @@
+name: basic work flow
+on: 
+  workflow_dispatch:
+job:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "we did this thing"
